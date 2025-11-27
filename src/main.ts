@@ -221,10 +221,8 @@ function createAfricaBuffer(): Feature<Polygon | MultiPolygon> | null {
                     console.warn(`Could not union feature ${i}:`, e);
                 }
             }
-        } else if (buffered.type === 'Feature') {
-            unified = buffered as Feature<Polygon | MultiPolygon>;
         } else {
-            console.error('Unexpected buffer result type');
+            console.error('Unexpected buffer result type:', buffered.type);
             return null;
         }
         
