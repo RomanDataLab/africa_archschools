@@ -1,0 +1,21 @@
+{
+  "name": "voronoi-africa",
+  "version": "1.0.0",
+  "description": "Voronoi diagram visualization of African Architecture Schools",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.1.0",
+    "mapbox-gl": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^3.1.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}
+
