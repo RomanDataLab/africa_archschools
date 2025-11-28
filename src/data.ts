@@ -153,6 +153,7 @@ export const schoolsData: School[] = [
     { Institution: "Universidad Europea de Canarias - School of Architecture", City: "La Orotava", Country: "Canary Islands (Spain)", Website: "https://universidadeuropea.com", Latitude: 28.3891, Longitude: -16.5269 },
     { Institution: "Escuela de La Construcción - Construction & Built Environment", City: "Ceuta", Country: "Ceuta (Spain)", Website: "https://www.educacionyfp.gob.es", Latitude: 35.8894, Longitude: -5.3213 },
     { Institution: "Madeira Interactive Institute (University of Madeira) - Master in Space Design", City: "Funchal", Country: "Madeira (Portugal)", Website: "https://www.uma.pt", Latitude: 32.6669, Longitude: -16.9241 },
-    { Institution: "Conservatório - Escola Profissional das Artes da Madeira - Design & Architecture", City: "Funchal", Country: "Madeira (Portugal)", Website: "https://www.conservatoriodasculturas.com", Latitude: 32.6501, Longitude: -16.9085 }
+    { Institution: "Conservatório - Escola Profissional das Artes da Madeira - Design & Architecture", City: "Funchal", Country: "Madeira (Portugal)", Website: "https://www.conservatoriodasculturas.com", Latitude: 32.6501, Longitude: -16.9085 },
+    { Institution: "École nationale supérieure d'architecture de La Réunion (ENSA La Réunion)", City: "Le Port", Country: "Réunion (France)", Website: "https://www.lareunion-archi.fr", Latitude: -20.94, Longitude: 55.29 }
 ];
 

@@ -143,3 +143,5 @@ In Vercel Dashboard:
 - https://africa-archschools.vercel.app (default)
 - https://your-custom-domain.com (if configured)
 
+
+

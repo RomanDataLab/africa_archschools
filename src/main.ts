@@ -9,7 +9,8 @@ import {
     caboVerdeCoordinates,
     madeiraCoordinates,
     seychellesCoordinates,
-    mauritiusCoordinates 
+    mauritiusCoordinates,
+    reunionCoordinates 
 } from './africa-outline';
 import type { Feature, FeatureCollection, Point, Polygon, MultiPolygon } from 'geojson';
 
@@ -177,6 +178,7 @@ function createAfricaBuffer(): Feature<Polygon | MultiPolygon> | null {
         const madeira = turf.polygon([madeiraCoordinates]);
         const seychelles = turf.polygon([seychellesCoordinates]);
         const mauritius = turf.polygon([mauritiusCoordinates]);
+        const reunion = turf.polygon([reunionCoordinates]);
         
         // Combine all polygons
         const allPolygons = turf.featureCollection([
@@ -186,7 +188,8 @@ function createAfricaBuffer(): Feature<Polygon | MultiPolygon> | null {
             caboVerde,
             madeira,
             seychelles,
-            mauritius
+            mauritius,
+            reunion
         ]);
         
         // Create buffer: 200 miles = 321.87 km
