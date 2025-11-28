@@ -137,6 +137,7 @@ export const schoolsData: School[] = [
     { Institution: "University of Juba - School of Engineering and Architecture", City: "Juba", Country: "South Sudan", Website: "https://www.juba-university.com", Latitude: 4.8517, Longitude: 31.5825 },
     { Institution: "Ardhi University - School of Architecture, Construction Economics & Management", City: "Dar es Salaam", Country: "Tanzania", Website: "https://www.aru.ac.tz", Latitude: -6.7924, Longitude: 39.2083 },
     { Institution: "University of Dar es Salaam - Architecture-related programs", City: "Dar es Salaam", Country: "Tanzania", Website: "https://www.udsm.ac.tz", Latitude: -6.7924, Longitude: 39.2083 },
+    { Institution: "Mbeya University of Science and Technology (MUST) - Architecture & Art Design", City: "Mbeya", Country: "Tanzania", Website: "https://www.must.ac.tz", Latitude: -8.9, Longitude: 33.45 },
     { Institution: "University of Lomé - Architecture & Urbanism", City: "Lomé", Country: "Togo", Website: "https://www.univ-lome.tg", Latitude: 6.1725, Longitude: 1.2314 },
     { Institution: "University of Sfax - Architecture programs", City: "Sfax", Country: "Tunisia", Website: "https://www.uss.rnu.tn", Latitude: 34.7406, Longitude: 10.7603 },
     { Institution: "North American Private University - International School of Architecture", City: "Sfax", Country: "Tunisia", Website: "http://www.nau.tn", Latitude: 34.7406, Longitude: 10.7603 },
