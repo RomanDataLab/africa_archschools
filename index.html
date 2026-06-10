@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- GTM --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":
+new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
+"https://www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,"script","dataLayer","GTM-538VHG6H");</script>
+<!-- GA4 [RDT-AFAA-15] --><script async src="https://www.googletagmanager.com/gtag/js?id=G-2E348VSQ5G"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag("js",new Date());
+gtag("config","G-2E348VSQ5G",{
+  custom_map:{"dimension1":"project_name","dimension2":"page_module","dimension3":"user_type","dimension4":"stream_id"},
+  project_name:"africa-archschools",
+  stream_id:"RDT-AFAA-15",
+  page_module:document.title.split("—")[0].trim()||"unknown",
+  user_type:(location.search.includes("mode=client")?"client":"ops")
+});
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>African Architecture Schools - Voronoi Diagram</title>
@@ -124,9 +142,65 @@
         .popup-link a:hover {
             text-decoration: underline;
         }
+
+        @media (max-width: 600px) {
+            .map-overlay {
+                top: 10px;
+                left: 10px;
+                right: 10px;
+                max-width: none;
+                padding: 10px 14px;
+            }
+            .map-overlay h2 {
+                font-size: 15px;
+            }
+            .map-overlay p {
+                font-size: 11px;
+            }
+            .legend {
+                bottom: 10px;
+                right: 10px;
+                padding: 10px;
+            }
+            .legend h3 {
+                font-size: 12px;
+                margin-bottom: 6px;
+            }
+            .legend-item {
+                font-size: 11px;
+            }
+            .legend-color {
+                width: 16px;
+                height: 16px;
+            }
+            .mapboxgl-ctrl-top-right {
+                top: auto !important;
+                bottom: 120px !important;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .map-overlay {
+                top: 5px;
+                left: 5px;
+                right: 5px;
+                padding: 8px 10px;
+            }
+            .map-overlay h2 {
+                font-size: 13px;
+                margin-bottom: 4px;
+            }
+            .legend {
+                bottom: 5px;
+                right: 5px;
+                left: 5px;
+                padding: 8px;
+            }
+        }
     </style>
 </head>
 <body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-538VHG6H" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="map"></div>
     
     <div class="map-overlay">
